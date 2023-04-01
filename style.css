@@ -22,3 +22,79 @@ section>ul>li>a {
     text-decoration: none; 
     color: red;
 }
+
+//////PARTE CSS CONTACTO
+
+#formularioDeContacto {
+    
+    width: 100%;
+    margin-left: 100% ;
+    font-family: Arial, sans-serif;
+    padding: 100px;
+    background-color: #c22525;
+    border-radius: 20px;
+  }
+  
+  #nombreyapellido label {
+    color:white;
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  #formularioDeContacto input[type="text"],
+  #formularioDeContacto input[type="email"],
+  #formularioDeContacto textarea {
+    width: 100%;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #btn-enviar input[type="submit"] {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border:blueviolet 40px;
+    border-radius: 10px;
+    cursor:pointer;
+    text-align:right 20px;
+    transition: background-color 0.3s ease;
+  }
+
+  #btn-enviar input[type="submit"] {
+    display: inline-block;
+  }
+  
+  #formularioDeContacto input[type="submit"]:hover {
+    background-color: #3e8e41;
+
+  }
+
+  #btn-newsletter {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  #newsletter-label {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  #newsletter-checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
