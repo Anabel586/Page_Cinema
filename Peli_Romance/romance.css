@@ -1,0 +1,17 @@
+body {
+    background-image: url('/Resource/imagenes/fondo99.jpg');
+    background-repeat:initial;
+    background-size: cover;
+    animation: animacion 20s linear infinite;
+    height: 100%;
+    width: 100%;
+  }
+  
+  @keyframes animacion {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
