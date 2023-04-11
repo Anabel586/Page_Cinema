@@ -43,54 +43,24 @@ section > ul > li > a {
 
 /* PARTE CSS CONTACTO */
 
-#formularioDeContacto {
-  width: 100%;
-  margin-left: 100%;
-  font-family: Arial, sans-serif;
-  padding: 100px;
-  background-color: #c22525;
-  border-radius: 20px;
+#contacto-container {
+  display:block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 5vh 5vw;
 }
-
-#nombreyapellido label {
-  color: white;
-  display: block;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-
-#formularioDeContacto input[type="text"],
-#formularioDeContacto input[type="email"],
-#formularioDeContacto textarea {
-  width: 100%;
-  color: white;
-  padding: 10px;
-  border: none;
+#contacto {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #cc4040;
   border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-#btn-enviar input[type="submit"] {
-  background-color: #ffffff;
-  padding: 10px 20px;
-  border: blueviolet 40px;
-  border-radius: 10px;
-  cursor: pointer;
-  text-align: right 20px;
-  transition: background-color 0.3s ease;
-}
-
-#btn-enviar input[type="submit"] {
-  display: inline-block;
-}
-
-#formularioDeContacto input[type="submit"]:hover {
-  background-color: #3e8e41;
+  padding: 60px;
 }
 
 #btn-newsletter {
   background-color: #008cba;
-  color: white;
+  color: rgb(255, 255, 255);
   border: none;
   padding: 10px 20px;
   text-align: center;
