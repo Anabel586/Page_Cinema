@@ -1,7 +1,7 @@
 
   
   body {
-    background-image: url('/Resource/imagenes/jj.webp');
+    background-image: url('./Resource/imagenes/jj.webp');
     background-repeat:initial;
     background-size: cover;
     animation: animacion 20s linear infinite;
