@@ -7,4 +7,3 @@ $(document).ready(function() {
     $(this).find('.card-text').toggleClass('d-none d-block');
     });
     });
-

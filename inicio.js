@@ -45,12 +45,13 @@ const rules = {
 
 // Definimos los precios de las películas
 const precios = {
-  titanic: 10,
-  casaBlanca: 8,
-  elDiarioDeNoah: 12,
-  romeoYjulieta: 9,
-  Lalaland: 15,
-  Brooklyn: 7,
+  elCaballeroOscuro:10,
+  elSeñorDeLosAnilloselRetornodelRey: 10,
+  losSieteSamuráis:10,
+  spidermanelNuevoUniverso:10,
+  elSeñorDeLosAnilloslaComunidadDelAnillo:10,
+  starWarselImperioContraataca:10,
+  
 };
 
 // Agregamos un evento para actualizar el precio total

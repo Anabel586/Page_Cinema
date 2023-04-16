@@ -1,7 +1,7 @@
-// Función para obtener datos de las API de TMDb y actualizar la página con la información de las seis películas infantiles más valoradas
+// Función para obtener datos de las API de TMDb y actualizar la página con la información de las seis películas de acción más valoradas
 function obtenerDatosPeliculas() {
-    // Llamada a la API de TMDb para obtener la información de las seis películas infantiles más valoradas
-    fetch('https://api.themoviedb.org/3/discover/movie?api_key=71fd9eceae3ba5b0a483b1f99ef576b3&language=es&sort_by=vote_average.desc&vote_count.gte=1000&with_genres=16')
+    // Llamada a la API de TMDb para obtener la información de las seis películas de acción más valoradas
+    fetch('https://api.themoviedb.org/3/discover/movie?api_key=71fd9eceae3ba5b0a483b1f99ef576b3&language=es&sort_by=vote_average.desc&vote_count.gte=1000&with_genres=28')
         .then(response => response.json())
         .then(data => {
             // Obtener la imagen y sinopsis de la primera película
@@ -48,8 +48,7 @@ function obtenerDatosPeliculas() {
             const sinopsisElement5 = document.querySelector('#cinco-text');
             imagen5.src = imagenURL5;
             sinopsisElement5.textContent = sinopsis5;
-    
-
+            
             const imagen6 = document.querySelector('#seis-img');
             const sinopsisElement6 = document.querySelector('#seis-text');
             imagen6.src = imagenURL6;
