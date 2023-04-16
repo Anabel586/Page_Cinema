@@ -51,6 +51,22 @@ const precios = {
   spidermanelNuevoUniverso:10,
   elSeñorDeLosAnilloslaComunidadDelAnillo:10,
   starWarselImperioContraataca:10,
+  elViajeDeChihiro:9,
+  yourName:9,
+  laTumbaDeLasLuciernagas:9,
+  elCastilloAmbulante:9,
+  unaVozSilenciosa:9,
+  forestGump:8,
+  dilwaleDulhaniaLeJayenge:8,
+  gabrielsInfierno:8,
+  cinemaParadiso:8,
+  gabrielsInfiernoParte2:8,
+  psicosis:15,
+  elResplandor:15,
+  alienElOctavoPasajero:15,
+  laCosa:15,
+  elGabineteDelDoctorCaligari:15,
+  laParadaDeLosMoustruos:15,
   
 };
 
@@ -90,18 +106,6 @@ form.addEventListener("submit", function (event) {
     `;
     
 
-//     // Agregamos un evento para generar el archivo PDF
-// document.getElementById("btn-descargar").addEventListener("click", function () {
-//     // Creamos un objeto jsPDF con la orientación "portrait" y la unidad "mm"
-//     const doc = new jsPDF("p", "mm");
-    
-//     // Agregamos el resumen de la compra al archivo PDF
-//     doc.text(`Resumen de la compra\n\n${resumenCompra}`, 10, 10);
-    
-//     // Descargamos el archivo PDF con el nombre "resumen_compra.pdf"
-//     doc.save("resumen_compra.pdf");
-//   });
-  
 
 
     // Mostramos el resumen de la compra en una ventana emergente que el usuario debe confirmar
